@@ -1,0 +1,105 @@
+canvas#payment_overview {
+    max-width: 377px !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 auto;
+}
+canvas#invoice_overview {
+    max-width: 377px !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 auto;
+}
+
+#invoice-overview-container {
+    min-height: 380px;
+}
+
+#payment-overview-container {
+    min-height: 380px;
+}
+
+.dashboard-skeleton {
+    .card {
+        height: 750px;
+    }
+    .sub-card {
+        box-sizing: border-box;
+        background: #e1e1e1;
+        position: relative;
+        margin: 20px;
+        border-radius: 10px !important;
+        height: 160px;
+    }
+
+    .pulsate {
+        background: linear-gradient(90deg, #dddddd, #f0f0f0, #dddddd, #f0f0f0);
+        background-size: 400% 400%;
+        animation: Gradient 2s ease infinite;
+    }
+
+    .card-content {
+        clear: both;
+        box-sizing: border-box;
+        padding: 16px;
+        background: #fff;
+    }
+
+    .block2 {
+        width: 200px;
+        height: 20px;
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+
+    .block3 {
+        width: 250px;
+        height: 45px;
+        margin-top: 8px;
+        margin-left: auto;
+        margin-right: 20px;
+        border-radius: 0.313rem;
+    }
+
+    @-webkit-keyframes Gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    @-moz-keyframes Gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    @keyframes Gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+}
